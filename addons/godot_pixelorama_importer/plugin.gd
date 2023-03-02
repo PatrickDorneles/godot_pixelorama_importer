@@ -70,9 +70,9 @@ func _enter_tree() -> void:
 	editor_settings.add_property_info(property_info)
 
 	import_plugins = [
-		preload("single_image_import.gd").new(),
-		preload("spriteframes_import.gd").new(get_editor_interface()),
-		preload("animation_player_import.gd").new(get_editor_interface())
+		preload("./single_image_import.gd").new(),
+		preload("./spriteframes_import.gd").new(get_editor_interface()),
+		preload("./animation_player_import.gd").new(get_editor_interface())
 	]
 
 	var hint_string := []

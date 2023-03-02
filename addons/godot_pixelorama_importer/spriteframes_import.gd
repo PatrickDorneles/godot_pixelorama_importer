@@ -60,7 +60,7 @@ func _import(
 	options: Dictionary,
 	_platform_variants: Array[String],
 	gen_files: Array[String]
-) -> int:
+) -> Error:
 	"""
 	Main import function. Reads the Pixelorama project and creates the SpriteFrames resource
 	"""

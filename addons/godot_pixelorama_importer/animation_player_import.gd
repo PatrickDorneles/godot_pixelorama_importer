@@ -80,7 +80,7 @@ func _get_priority() -> float:
 	return 1.0
 
 
-func _import(source_file: String, save_path: String, options: Dictionary, platform_variants: Array, gen_files: Array) -> int:
+func _import(source_file: String, save_path: String, options: Dictionary, platform_variants: Array, gen_files: Array) -> Error:
 	"""
 	Main import function. Reads the Pixelorama project and creates the animation player resource
 	"""
